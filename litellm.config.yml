@@ -1,0 +1,16 @@
+model_list:
+  - model_name: Mistral-Small-3.2-24B-Instruct
+    litellm_params:
+      model: openai/Mistral-Small-3.2-24B-Instruct
+      api_base: https://llm.aihosting.mittwald.de/v1
+      api_key: "os.environ/MITTWALD_LLM_HOSTING_KEY"
+  - model_name: Qwen3-Embedding-8B
+    litellm_params:
+      model: openai/Qwen3-Embedding-8B
+      api_base: https://llm.aihosting.mittwald.de/v1
+      api_key: "os.environ/MITTWALD_LLM_HOSTING_KEY"
+  - model_name: Qwen3-Coder-30B-Instruct
+    litellm_params:
+      model: openai/Qwen3-Coder-30B-Instruct
+      api_base: https://llm.aihosting.mittwald.de/v1
+      api_key: "os.environ/MITTWALD_LLM_HOSTING_KEY"
