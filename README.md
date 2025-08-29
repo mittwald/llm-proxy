@@ -21,3 +21,4 @@ Setup a proxy with litellm to use the mittwald AI hosting in your IDE.
 * Open Settings. Go to Tools › AI Assistant › Models
 * Choose OpenAI API as a provider
 * Set URL to `http://localhost:4000/v1`
+* Select OpenAI/... for Local Models
