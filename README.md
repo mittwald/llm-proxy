@@ -1,4 +1,4 @@
-# MW LLM Proxy
+# mittwald LLM Proxy
 
 Setup a proxy with [LiteLLM](https://litellm.ai/) to use the [mittwald AI hosting](https://www.mittwald.de/mstudio/ai-hosting) in your IDE. This proxy allows you to integrate mittwald's GDPR-compliant AI models hosted in German data centers into your development workflow.
 
