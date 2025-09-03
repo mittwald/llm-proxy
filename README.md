@@ -52,10 +52,9 @@ The proxy will be available at `http://localhost:4000/v1` and compatible with Op
 ![PhpStorm Settings to setup the Proxy as an AI provider](./img/ai-assistant-settings.png)
 
 1. Open Settings → Tools → AI Assistant → Models
-2. Choose **OpenAI API** as a provider
+2. Under **Third-party AI providers**, choose **OpenAI API** as a provider
 3. Set URL to `http://localhost:4000/v1`
-4. Select **OpenAI/...** for Local Models
-5. Enter your API key or leave empty (proxy handles authentication)
+4. The local proxy will handle request forwarding and authentication
 
 ### Other IDEs
 
@@ -65,12 +64,7 @@ Most IDEs with AI assistance can be configured by:
 
 ## Technical Details
 
-This proxy uses [LiteLLM](https://litellm.ai/) to provide OpenAI API compatibility with mittwald's AI hosting service. The proxy handles:
-
-- API key authentication with mittwald
-- Request/response format conversion
-- Rate limiting and error handling
-- Model routing and selection
+This proxy uses [LiteLLM](https://litellm.ai/) to provide OpenAI API compatibility with mittwald's AI hosting service. The proxy handles authenticating with the mittwald API, and routing requests to the appropriate model.
 
 ## Documentation & Resources
 
