@@ -53,8 +53,9 @@ The proxy will be available at `http://localhost:4000/v1` and compatible with Op
 
 1. Open Settings → Tools → AI Assistant → Models
 2. Under **Third-party AI providers**, choose **OpenAI API** as a provider
-3. Set URL to `http://localhost:4000/v1`
-4. The local proxy will handle request forwarding and authentication
+3. Set URL to `http://localhost:4000/v1` and use the **Test connection** button to verify the connection.
+4. Under **Local models**, select an appropriate model (like `OpenAI/Qwen3 Coder Instruct`)
+5. The local proxy will handle request forwarding and authentication
 
 ### Other IDEs
 
