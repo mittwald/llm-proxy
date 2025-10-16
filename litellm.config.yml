@@ -14,3 +14,8 @@ model_list:
       model: openai/Qwen3-Coder-30B-Instruct
       api_base: https://llm.aihosting.mittwald.de/v1
       api_key: "os.environ/MITTWALD_LLM_HOSTING_KEY"
+  - model_name: GPT-OSS
+    litellm_params:
+      model: openai/gpt-oss-120b
+      api_base: https://llm.aihosting.mittwald.de/v1
+      api_key: "os.environ/MITTWALD_LLM_HOSTING_KEY"
