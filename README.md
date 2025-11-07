@@ -40,7 +40,7 @@ mittwald AI hosting provides access to powerful AI models while ensuring data pr
    ```bash
    docker compose up
    # or run in background
-   docker compose up --detached
+   docker compose up --detach
    ```
 
 The proxy will be available at `http://localhost:4000/v1` and compatible with OpenAI API format.
